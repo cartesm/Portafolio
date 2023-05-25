@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cartoon{
+    @apply rounded-md px-1 border-2 border-r-4 border-b-4 border-black 
+}
