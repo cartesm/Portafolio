@@ -10,13 +10,13 @@ function Header() {
     
     
 
-return <header className={`${dplay<=500?"hidden":"block"} `}>
-        <nav className='flex items-center justify-center gap-2 text-center bg-[#0d407f] font-sans text-white'>
+return <header className={`${dplay<=550?"hidden":"block"} w-full fixed top-0 z-50`}>
+        <nav className='flex items-center justify-center gap-2 text-center bg-[#262ACC] font-sans text-white'>
             <p className='flex gap-1 '>
-            <FaInstagram className='hover:scale-105 transition duration-150'/>
-            <FaWhatsapp className='hover:scale-105 transition duration-150'/>
+            <FaInstagram className='icon-top'/>
+            <FaWhatsapp className='icon-top'/>
             </p>
-            <span>Sebatian Cartes</span>
+            <span>Sebastiàn Cartes</span>
         </nav>
 
   </header>
