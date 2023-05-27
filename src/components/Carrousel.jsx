@@ -1,13 +1,11 @@
 import {useState} from "react"
 import {Slide} from "react-reveal"
-import Glider from "react-slick"
+
 function Carrousel() {
 
   const [position, setPosition] = useState(0)
 
-  const sttings = {
-    
-  }
+  
   
   
 
@@ -62,15 +60,17 @@ function Carrousel() {
         </div>
       </Slide>
     {/* mas info */}
-      <div className="flex flex-col md:flex-row mx-auto gap-4 items-center justify-center text-lg font-sans">
-          <p className="min-w-[300px] max-w-[500px] text-center indent-7">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quas autem laborum reprehenderit perferendis excepturi fugiat pariatur debitis eligendi rem, esse possimus dolorum ipsa recusandae facilis porro? Quae, cum ducimus!
-          </p>
-          <div className="flex items-center">
-            <span>Experiencia</span>
-            <progress max={100} value={50}></progress>
-          </div>
-      </div>
+      <Slide bottom>
+        <div className="flex flex-col md:flex-row mx-auto gap-4 items-center justify-center text-lg font-sans">
+            <p className="min-w-[300px] max-w-[500px] text-center indent-7">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quas autem laborum reprehenderit perferendis excepturi fugiat pariatur debitis eligendi rem, esse possimus dolorum ipsa recusandae facilis porro? Quae, cum ducimus!
+            </p>
+            <div className="flex items-center">
+              <span>Experiencia</span>
+              <progress max={100} value={50}></progress>
+            </div>
+        </div>
+      </Slide>
     </div>
   )
 }

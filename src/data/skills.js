@@ -1,4 +1,8 @@
-export const skills = {
-    
-}
+export const skills = [
+    {
+        description:"",
+        exp:0
+    }
+        
+]
 
