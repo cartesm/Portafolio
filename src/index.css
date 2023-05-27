@@ -3,9 +3,23 @@
 @tailwind utilities;
 
 body{
-  @apply  bg-[#EDEEF0]
+  @apply  bg-[#EDEEF0] ;
+  scroll-behavior: smooth;  
 }
 
+.mern-shadow{
+    filter: drop-shadow(0 20px 25px #89909B);
+}
+.mern-shadow-express{
+    filter: drop-shadow(0 10px 15px #fff);
+}
+
+.scrollbar-skills::-webkit-scrollbar{
+    @apply h-[6px] cursor-pointer
+}
+.scrollbar-skills::-webkit-scrollbar-thumb{
+    @apply bg-[#16CDC4] rounded-md
+}
 body::-webkit-scrollbar{
     @apply hidden}
     
