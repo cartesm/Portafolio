@@ -15,7 +15,7 @@ body{
 }
 
 .scrollbar-skills::-webkit-scrollbar{
-    @apply h-[6px] cursor-pointer
+    @apply h-2 cursor-pointer
 }
 .scrollbar-skills::-webkit-scrollbar-thumb{
     @apply bg-[#16CDC4] rounded-md
@@ -23,8 +23,8 @@ body{
 body::-webkit-scrollbar{
     @apply hidden}
     
-.cartoon{
-    @apply rounded-md px-1 border-2 border-r-4 border-b-4 border-black 
+.exp{
+   @apply w-6 h-[6px]
 }
 .icon-top{
     @apply hover:scale-105 transition duration-150 cursor-pointer
