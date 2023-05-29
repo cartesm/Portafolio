@@ -7,11 +7,26 @@ body{
   scroll-behavior: smooth;  
 }
 
+
+.input-contact{
+    @apply caret-[#16dcdc] font-sans bg-gray-950 border-b-2 border-[#0e7373] focus:border-[#16dcdc] transition duration-150  outline-none;
+}
+
+.experiment::before{
+    content: "sdssdd";
+    color: #fff;
+    position: relative;
+    z-index: 9999;
+}
+
+.selected{
+    filter: drop-shadow(0 0 15px #16dcdc);
+}
 .mern-shadow{
-    filter: drop-shadow(0 20px 25px #89909B);
+    filter: drop-shadow(0 0 20px #89909B);
 }
 .mern-shadow-express{
-    filter: drop-shadow(0 10px 15px #fff);
+    filter: drop-shadow(0 10px 15px );
 }
 
 .scrollbar-skills::-webkit-scrollbar{

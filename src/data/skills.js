@@ -39,5 +39,10 @@ export const skills = [
         description:"Entorno de ejecución de JavaScript del lado del servidor. Permite ejecutar código JavaScript fuera del navegador, lo que lo convierte en una opción popular para construir aplicaciones web y servicios del lado del servidor.",
         exp:1
     },  
+    {
+        tittle:"Git",
+        description:"Sistema de control de versiones que te permite realizar un seguimiento de los cambios en tus archivos de forma eficiente y colaborativa. Con Git, puedes guardar diferentes versiones de tus archivos, colaborar con otros desarrolladores y fusionar los cambios de manera organizada.",
+        exp:3,
+    }
 ]
 
