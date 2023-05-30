@@ -1,7 +1,7 @@
 
 function Projects() {
   return (
-    <div className="my-32">Projects</div>
+    <div id="projects" className="my-32 ">Projects</div>
   )
 }
 

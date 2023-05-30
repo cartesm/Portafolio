@@ -16,7 +16,7 @@ function Carrousel() {
   
 
   return (
-    <div className="bg-[#141535] text-white py-12">
+    <div id="skills" className="bg-[#141535] text-white py-12">
       {/* titulo */}
       <div>
         <h3 className="text-center text-5xl font-semibold">Habilidades</h3>

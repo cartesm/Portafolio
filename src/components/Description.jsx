@@ -4,7 +4,7 @@ function Description() {
  
   return (
     <Reveal cascade>
-    <div className="flex flex-col md:flex-row pb-[100px] items-center justify-center gap-12">
+    <div id="me" className="flex flex-col md:flex-row pb-[100px] items-center justify-center gap-12">
         <div className="flex items-center flex-col gap-5">
             <h3 className="font-sans text-4xl"><b>Acerca de mi</b></h3>
             <p className=" xd min-w-[450px] max-w-[500px] px-6 font-sans text-lg indent-8 md:indent-7 leading-8">

@@ -1,24 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*,html{
+  scroll-behavior: smooth !important;
+}
 
 body{
   @apply  bg-[#EDEEF0] ;
-  scroll-behavior: smooth;  
 }
 
-
+.scollbar-textArea::-webkit-scrollbar{
+    @apply w-1 cursor-pointer
+} 
+.scollbar-textArea::-webkit-scrollbar-thumb{
+    @apply bg-[#0e7373]
+}
+.label-contact{
+    @apply font-sans
+}
 .input-contact{
-    @apply caret-[#16dcdc] font-sans bg-gray-950 border-b-2 border-[#0e7373] focus:border-[#16dcdc] transition duration-150  outline-none;
+    @apply caret-[#16dcdc] font-sans bg-transparent my-2 px-2 min-w-[300px] max-w-[400px] border-b-2  transition duration-150  outline-none;
 }
-
-.experiment::before{
-    content: "sdssdd";
-    color: #fff;
-    position: relative;
-    z-index: 9999;
+.input-contact-error{
+    @apply text-red-600 font-semibold   
 }
-
+.input-contact-button{
+    @apply duration-150 cursor-pointer px-4 rounded-full h-7 text-[#141535] bg-[#0e7373] focus:bg-[#16dcdc] hover:bg-[#16dcdc]
+}
+.link-header{
+    @apply font-semibold hover:underline hover:text-gray-200 duration-150
+}
 .selected{
     filter: drop-shadow(0 0 15px #16dcdc);
 }
