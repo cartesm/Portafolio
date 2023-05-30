@@ -5,6 +5,15 @@
   scroll-behavior: smooth !important;
 }
 
+.adsdas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+
+
 body{
   @apply  bg-[#EDEEF0] ;
 }
@@ -15,14 +24,17 @@ body{
 .scollbar-textArea::-webkit-scrollbar-thumb{
     @apply bg-[#0e7373]
 }
+.containner-contact{
+    @apply my-3
+}
 .label-contact{
     @apply font-sans
 }
 .input-contact{
-    @apply caret-[#16dcdc] font-sans bg-transparent my-2 px-2 min-w-[300px] max-w-[400px] border-b-2  transition duration-150  outline-none;
+    @apply caret-[#16dcdc] font-sans bg-transparent px-2 min-w-[300px] max-w-[400px] border-b-2  transition duration-150  outline-none;
 }
 .input-contact-error{
-    @apply text-red-600 font-semibold   
+    @apply text-violet-600 font-sans   
 }
 .input-contact-button{
     @apply duration-150 cursor-pointer px-4 rounded-full h-7 text-[#141535] bg-[#0e7373] focus:bg-[#16dcdc] hover:bg-[#16dcdc]
