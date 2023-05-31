@@ -3,7 +3,7 @@ import {Carrousel,Header,Title,Description,Contact,Projects, Footer} from "./com
 function App() {
 
   return (
-    <main className=" max-w-[1920px] max-h-[1200px]">
+    < >
       <Header/>
       <Title/>
       <Description/>
@@ -11,7 +11,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
-    </main>
+    </>
   )
 }
 

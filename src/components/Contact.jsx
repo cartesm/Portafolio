@@ -25,8 +25,10 @@ function Contact() {
   return (
     <>
     {Dplay && <Message message={"Correo enviado."}/>}
-    <div id='contact' className=" py-12  text-white">
-          <h2 className='text-center text-4xl text-[#191a49] my-12'><strong>Contactame.</strong></h2>
+    <div className='mx-auto rounded-xl bg-[#191a49] max-w-[300px] h-[50px] -my-[25px] relative z-20 flex items-center justify-center md:max-w-[500px]'>
+      <h2 className='text-center text-4xl text-white my-12'><strong>Contactame</strong></h2>
+    </div>
+    <div id='contact' className=" py-14  text-white">
           <form ref={form} onSubmit={handleSubmit(hSubmit)} className="mx-auto flex bg-sky-900 items-center flex-col form py-12 bg-opacity-60 xl:bg-opacity-20 backdrop-blur-sm rounded-xl w-[350px]">
               <div className='containner-contact'>
                 <label className='label-contact'>Nombre

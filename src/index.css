@@ -5,17 +5,11 @@
   scroll-behavior: smooth !important;
 }
 
-.adsdas{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100px;
-}
-
-
-
 body{
-  @apply  bg-[#EDEEF0] ;
+  @apply  bg-[#EDEEF0];
+  min-width: 100% !important;
+  overflow-x: hidden !important;
+
 }
 
 .scollbar-textArea::-webkit-scrollbar{
@@ -34,9 +28,6 @@ body{
     background-position: 50% 100%;
     backface-visibility: 50%;
     background-size: cover ; 
-}
-.footer{
-    box-shadow: 0 -30px 40px #141535 ;
 }
 .form{
     box-shadow: 0 0 20px #141535;

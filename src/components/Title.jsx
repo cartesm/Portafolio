@@ -16,7 +16,7 @@ function Title() {
                   </Slide>
               </p>
               <Slide bottom cascade>
-                <span className="text-[#16CDC4] ml-20 text-2xl font-semibold">Student</span> 
+                <span className="text-[#16CDC4] ml-20 text-2xl font-semibold">Estudiante</span> 
               </Slide>
           </div>
           <Slide top>
