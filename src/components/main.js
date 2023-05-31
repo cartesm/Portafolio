@@ -5,6 +5,7 @@ import Carrousel from "./Carrousel"
 import Contact from "./Contact.jsx"
 import Projects from "./Projects"
 import Message from "./Message"
+import Footer from "./Footer"
 export  {
     Header,
     Title,
@@ -12,6 +13,7 @@ export  {
     Carrousel,
     Contact,
     Projects,
-    Message
+    Message,
+    Footer
     
 }

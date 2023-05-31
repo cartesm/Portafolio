@@ -30,7 +30,9 @@ return <header id='header' className={` w-full  bg-[#262ACC]`}>
                 </p>
                 <span>Sebastiàn Cartes</span>
                 <p>
-                    <a href="#header"><RiOmega className='text-xl'/></a>
+                    <a href="#header">
+                        <RiOmega className='text-xl rotate-180'/>
+                    </a>
                 </p>
             </nav>
         </Slide>

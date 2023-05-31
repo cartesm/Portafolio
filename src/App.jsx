@@ -1,4 +1,4 @@
-import {Carrousel,Header,Title,Description,Contact,Projects} from "./components/main" 
+import {Carrousel,Header,Title,Description,Contact,Projects, Footer} from "./components/main" 
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
       <Carrousel/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </main>
   )
 }

@@ -25,19 +25,80 @@ body{
     @apply bg-[#0e7373]
 }
 .containner-contact{
-    @apply my-3
 }
 .label-contact{
-    @apply font-sans
+    @apply font-sans text-sm 
+}
+#contact{
+    background: url(./assets/map.jpg) no-repeat;
+    background-position: 50% 100%;
+    backface-visibility: 50%;
+    background-size: cover ; 
+}
+.footer{
+    box-shadow: 0 -20px 30px #141535 ;
+}
+.form{
+    box-shadow: 0 0 20px #141535;
+    backdrop-filter: ;
+}
+.project-item{
+    background: url(./assets/pokedex.png) no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+    position: relative;
+    overflow: hidden;
+}.project-item:hover::after{
+    content: "Pokedex";
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 21, 53,70%);
+    width: 100%;
+    height: 100%;
+    animation: projects  .3s   ;
+}
+.project-item-reverse::after{
+    content: "Pokedex";
+    font-size: 50px;
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 21, 53,70%);
+    width: 100%;
+    height: 100%;
+    animation: projects-reverse .3s both ;
+}
+@keyframes projects{
+    from{
+        transform: translateY(-200px)
+    }
+    to{
+        transform: translate(0,0);
+    }
+}
+@keyframes projects-reverse{
+    from{
+        transform: translateY(0)
+    }
+    to{
+        transform: translateY(-200px);
+    }
 }
 .input-contact{
-    @apply caret-[#16dcdc] font-sans bg-transparent px-2 min-w-[300px] max-w-[400px] border-b-2  transition duration-150  outline-none;
+    @apply caret-[#16dcdc] font-sans border-b-2 bg-transparent border-[#16dcdc] py-1  px-2 my-1 min-w-[300px] max-w-[400px] transition duration-150  outline-none;
 }
 .input-contact-error{
-    @apply text-violet-600 font-sans   
+    @apply  mx-2 font-sans text-[#16dcdc]   
 }
 .input-contact-button{
-    @apply duration-150 cursor-pointer px-4 rounded-full h-7 text-[#141535] bg-[#0e7373] focus:bg-[#16dcdc] hover:bg-[#16dcdc]
+    @apply duration-150  mb-6 cursor-pointer px-4 rounded-full h-7 text-[#141535] bg-[#0e7373] focus:bg-[#16dcdc] hover:bg-[#16dcdc]
 }
 .link-header{
     @apply font-semibold hover:underline hover:text-gray-200 duration-150
@@ -50,6 +111,19 @@ body{
 }
 .mern-shadow-express{
     filter: drop-shadow(0 10px 15px );
+}
+.containners-footer{
+    
+}
+li::marker{
+    content: "-";
+    @apply text-[#16CDC4] font-semibold;
+}
+.subtitle-footer{
+    @apply text-lg font-bold
+}
+.icon-contactme{
+    @apply flex items-center gap-1 font-sans
 }
 
 .scrollbar-skills::-webkit-scrollbar{

@@ -20,7 +20,7 @@ function Title() {
               </Slide>
           </div>
           <Slide top>
-            <RiOmega className="text-[400px] -mt-[50px] hidden lg:block opacity-80 "/>
+            <RiOmega className="text-[400px] rotate-180 -mt-[50px] hidden lg:block opacity-80 "/>
           </Slide>
       </div>
       {/* separator */}
