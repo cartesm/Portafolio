@@ -36,61 +36,21 @@ body{
     background-size: cover ; 
 }
 .footer{
-    box-shadow: 0 -20px 30px #141535 ;
+    box-shadow: 0 -30px 40px #141535 ;
 }
 .form{
     box-shadow: 0 0 20px #141535;
     backdrop-filter: ;
 }
 .project-item{
-    background: url(./assets/pokedex.png) no-repeat;
-    background-size: cover;
-    background-position: 50% 40%;
-    position: relative;
-    overflow: hidden;
-}.project-item:hover::after{
-    content: "Pokedex";
-    color: #fff;
-    text-align: center;
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    background-color: rgba(20, 21, 53,70%);
-    width: 100%;
-    height: 100%;
-    animation: projects  .3s   ;
+    @apply rounded-2xl  w-[250px] h-[160px] flex flex-row text-center items-center justify-center text-white px-2
 }
-.project-item-reverse::after{
-    content: "Pokedex";
-    font-size: 50px;
-    color: #fff;
-    z-index: 1;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(20, 21, 53,70%);
-    width: 100%;
-    height: 100%;
-    animation: projects-reverse .3s both ;
+.project-item>div>a{@apply text-2xl font-semibold hover:underline;}
+.project-item>div>ul>li::marker{content: "";}
+.span-project{
+    @apply text-[#16dcdc] text-base  mx-2
 }
-@keyframes projects{
-    from{
-        transform: translateY(-200px)
-    }
-    to{
-        transform: translate(0,0);
-    }
-}
-@keyframes projects-reverse{
-    from{
-        transform: translateY(0)
-    }
-    to{
-        transform: translateY(-200px);
-    }
-}
+
 .input-contact{
     @apply caret-[#16dcdc] font-sans border-b-2 bg-transparent border-[#16dcdc] py-1  px-2 my-1 min-w-[300px] max-w-[400px] transition duration-150  outline-none;
 }

@@ -56,10 +56,18 @@ function Contact() {
                 </div>
             <input className="input-contact-button" type="submit" value={"Enviar"} />
             <div className='flex gap-2 text-[#16CDC4]'>
-                <BsGithub className='cursor-pointer'/>
-                <BsLinkedin className='cursor-pointer'/>
-                <BsInstagram className='cursor-pointer'/>
-                <SiFreelancer className='cursor-pointer'/>
+                <a href="https://github.com/cartesm" rel='noreferrer' target='_blank'>
+                  <BsGithub className='cursor-pointer'/>
+                </a>
+                <a href="https://www.linkedin.com/in/sebastian-cartes-8b0317279/" rel='noreferrer' target='_blank'>
+                  <BsLinkedin className='cursor-pointer'/>
+                </a>
+                <a href="https://www.instagram.com/sebastiancartes.work/" rel='noreferrer' target='_blank'>
+                  <BsInstagram className='cursor-pointer'/>
+                </a>
+                <a href="https://www.freelancer.com/u/sebastiankrts" rel='noreferrer' target='_blank'>
+                  <SiFreelancer className='cursor-pointer'/>
+                </a>
             </div>
           </form>
     </div>
